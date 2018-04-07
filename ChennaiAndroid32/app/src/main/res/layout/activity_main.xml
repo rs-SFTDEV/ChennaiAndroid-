@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background4"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <ImageView
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_margin="27dp"
+                android:layout_gravity="end"
+                android:background="#40FFD700"
+                android:src="@drawable/logo"
+                />
+
+            <TextView
+                android:id="@+id/chennai_android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:background="#40FFD700"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:text="@string/chennai_android"
+                android:textColor="#F5F5F5"
+                android:textSize="41sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/dream_big"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/dream_big_we_deliver"
+                android:textAlignment="center"
+                android:textColor="	#FFD700"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="@string/name"
+                android:paddingTop="1dp"
+                android:textAlignment="center"
+                android:textColor="#F5F5F5"
+                android:textSize="19sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#40FFD700"
+                android:padding="14dp"
+                android:text="@string/name1"
+                android:shadowColor="#000000"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="10"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="19sp"
+                android:textStyle="italic"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/thanks"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/branch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:gravity="center"
+            android:textColor="#ffd700"
+            android:layout_above="@id/contact"
+            android:textSize="19sp"
+            android:autoLink="map"/>
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/website"
+            android:autoLink="phone"
+            android:text="@string/contact"
+            android:textAlignment="center"
+            android:textColor="#FFFF"
+            android:textColorLink="#FFFF"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="23sp"
+            android:layout_alignParentBottom="true"
+            android:autoLink="web"
+            android:layout_centerHorizontal="true"
+            android:text="@string/website"
+            android:background="#40FFD700"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

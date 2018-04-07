@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chennai Android 3</string>
+    <string name="address">#3 Annamalai Avenue\nMugappair West\nChennai - 600037 \n\nHead Office : 1600 Amphitheatre Parkway, \nMountain View, CA 94043 </string>
+    <string name="app_name2">Chennai Android</string>
+    <string name="name">Mobile App Development Company </string>
+    <string name="name1">We deliver custom Android \napplication development, \nWeb Development, \nSearch Engine Optimization, \nOnline Marketing, \nBranding services to the clients globally.</string>
+
+    <string name="contact">Mobile : +91 9514444118 </string>
+    <string name="chennai_android">Chennai Android</string>
+    <string name="dream_big_we_deliver">Dream Big. We Deliver</string>
+    <string name="website">chennaiandroid.business.site</string>
+</resources>
